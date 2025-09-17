@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="Página-1" id="m_UVJtFEdICihkCev1e6">
+    <mxGraphModel dx="1426" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-1" value="- Inversor&lt;div&gt;- Inversiones&lt;/div&gt;&lt;div&gt;- Inversion en acciones&lt;/div&gt;&lt;div&gt;- Inversion en plazo fijo&lt;/div&gt;&lt;div&gt;- Valor actual&lt;/div&gt;&lt;div&gt;- Valor unitario&lt;/div&gt;&lt;div&gt;- cantidad de acciones&lt;/div&gt;&lt;div&gt;- nombre&lt;/div&gt;&lt;div&gt;- mercado de valores&lt;/div&gt;&lt;div&gt;- fecha&lt;/div&gt;&lt;div&gt;- monto depositado&lt;/div&gt;&lt;div&gt;- porcentaje de interes&lt;/div&gt;&lt;div&gt;- valor inversion actual&lt;/div&gt;&lt;div&gt;- cartera&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-70" width="110" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-2" value="Inversor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-4" value="Inversiones" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-5" value="Acciones" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-6" value="Plazos fijos" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-7" value="Cartera" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="-70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-8" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Inversion&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- valorActual()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-9" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="V0SRRWdY_mrNrGczs_l3-8">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-11" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Inversor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-12" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="V0SRRWdY_mrNrGczs_l3-11">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-13" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Cartera&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ valorActual: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- agregarInversion()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- sacarInversion()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-14" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="V0SRRWdY_mrNrGczs_l3-13">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="V0SRRWdY_mrNrGczs_l3-11" target="V0SRRWdY_mrNrGczs_l3-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="220" as="sourcePoint" />
+            <mxPoint x="380" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0SRRWdY_mrNrGczs_l3-13" target="V0SRRWdY_mrNrGczs_l3-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="220" as="sourcePoint" />
+            <mxPoint x="590" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-17" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Acciones&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ nombre: String&lt;br&gt;+ cantidad: integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ valorUnitario: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- valorActual()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-18" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="V0SRRWdY_mrNrGczs_l3-17">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-19" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Plazo Fijo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ fecha: LocalDate&lt;br&gt;+ montoDepositado: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ porcentajeInteres: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- valorActual()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-20" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="V0SRRWdY_mrNrGczs_l3-19">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0SRRWdY_mrNrGczs_l3-8" target="V0SRRWdY_mrNrGczs_l3-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="420" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0SRRWdY_mrNrGczs_l3-8" target="V0SRRWdY_mrNrGczs_l3-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="420" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-23" value="extends" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-25" value="extends" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V0SRRWdY_mrNrGczs_l3-26" value="inversiones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="444" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
