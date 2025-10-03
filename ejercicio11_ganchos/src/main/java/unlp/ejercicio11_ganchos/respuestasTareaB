@@ -1,0 +1,32 @@
+a)¿Por qué cree que este ejercicio se llama "Cuenta con ganchos"? 
+
+    Porque La clase padre Cuenta define la lógica general de las operaciones 
+    (depositar, extraer, transferirACuenta) y proporciona puntos donde las subclases 
+    pueden insertar su propia lógica adicional. 
+
+b)En las implementaciones de los métodos extraer() y transferirACuenta() que se ven en el diagrama, ¿quién es this? ¿Puede decir de qué clase es this?
+
+	This siempre apunta al objeto real en memoria, no al tipo de referencia de la variable.
+
+c)¿Por qué decidimos que los métodos puedeExtraer() y extraerSinControlar() tengan visibilidad "protegido"?
+
+	Para que solo las subclases puedan acceder a ellos directamente.
+	Ventajas:
+	- La clase padre mantiene encapsulamiento: el saldo no se puede modificar directamente desde fuera de la jerarquía de clases.
+	- Las subclases (CajaDeAhorro, CuentaCorriente) pueden reescribir estos métodos para aplicar reglas específicas (como el 2% de costo o el límite de descubierto).
+	Si fueran private, las subclases no podrían sobrescribirlos.
+	Si fueran public, cualquier clase externa podría modificar el saldo, rompiendo la integridad de la cuenta.
+	
+d) Se puede transferir de una caja de ahorro a una cuenta corriente y viceversa? ¿por qué?
+
+	Sí, se puede. El método transferirACuenta está definido en la clase padre y no depende del tipo de cuenta destino.
+	Esto funciona gracias al polimorfismo y a los métodos sobrescritos.
+
+e)¿Cómo se declara en Java un método abstracto? 
+  ¿Es obligatorio implementarlo? 
+  ¿Qué dice el compilador de Java si una subclase no implementa un método abstracto que hereda?
+  
+  - protected abstract boolean puedeExtraer(double monto);
+  - Sí, en todas las subclases concretas. Si una subclase no implementa el método abstracto, esa subclase también debe declararse abstract.
+  - El compilador da error de compilación: Clase X debe ser abstracta o implementar el método abstracto Y
+  
