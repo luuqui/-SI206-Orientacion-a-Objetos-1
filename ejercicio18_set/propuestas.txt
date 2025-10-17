@@ -1,0 +1,10 @@
+Propuesta 1 — Herencia
+
+Se debe subclasificar la clase HashSet<Integer> y redefinir el método add(Integer n) para que solo agregue los números pares.
+De esta manera, se reutiliza toda la lógica interna de HashSet (manejo de duplicados, almacenamiento, etc.) y se mantiene el contrato de Set<Integer> sin necesidad de crear atributos adicionales.
+
+Propuesta 2 — Composición (delegación)
+
+Se debe crear una nueva clase EvenNumberSet que implemente la interfaz Set<Integer> y que contenga internamente un objeto de tipo Set<Integer> (por ejemplo, un HashSet).
+Todas las operaciones de la interfaz se delegan a este conjunto interno, salvo el método add(Integer n), que se redefine para que solo acepte números pares.
+Esto permite mantener el control sobre qué se agrega, sin reescribir toda la lógica de Set.
